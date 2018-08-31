@@ -1,0 +1,30 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+#menus
+{
+    width: 250px;
+    height: 660px;
+    background: #CCC;
+}
+#menus a
+{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+ul li
+{
+    list-style: none;
+    display: block;
+    padding: 15px;
+    border-bottom: 1px solid #c2bfba;
+}
+ul li:hover
+{
+    transition: linear all 0.4s;
+    margin-left: 10px;
+    background: #DBD0D0;
+}

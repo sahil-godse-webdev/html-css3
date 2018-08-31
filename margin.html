@@ -1,0 +1,601 @@
+<html>
+    <head>
+        <title>Core CSS</title>
+   
+<style>
+    #main
+    {
+        background: rgb(219,219,221);
+        width: 1400px;
+        height: 1420px;
+    }
+    #image
+    {
+        width: 100%;
+        height: 437px;
+        background: url('images/bg final/templates-design-1.jpg') no-repeat;
+        background-size: cover;
+    }
+    #d2
+    {
+        height: 1030px;
+        background: rgb(236,236,236);
+        width: 80%;
+        margin-left: 130px;
+        margin-top: -65px;
+        border-radius: 15px;
+        margin-bottom: 12px;
+}
+#detail
+    {
+        width: 124px;
+        height: 33px;
+        background: -moz-linear-gradient(top,rgb(147,158,27),rgb(178,186,85));
+        background: -webkit-linear-gradient(top,rgb(147,158,27),rgb(178,186,85));
+        background: -o-linear-gradient(top,rgb(147,158,27),rgb(178,186,85));
+        background: -ms-linear-gradient(top,rgb(147,158,27),rgb(178,186,85));
+        border-radius: 10px;
+        border: 0.5px solid rgb(219,219,221);
+        margin: 340px 0 0 630px;
+        color: rgb(255,255,217);
+        box-sizing: border-box;
+        font-size: 18px;
+        font-family: sans-serif;
+    }
+    #d2inner1
+    {
+        width: 330px;
+        height: 100%;
+        background: rgb(236,236,236);
+        border-radius: 15px 0 0 15px;
+        float: left;
+        box-sizing: border-box;
+    
+    }
+    #d2inner2
+    {
+        width: 790px;
+        height: 100%;
+        background: rgb(236,236,236);
+        float: left;
+        border-radius: 0 15px 15px 0;
+    }
+    #menus
+    {
+        width: 100%;
+        height: 275px;
+        background: rgb(236, 236, 236);
+        margin: 0;
+        padding: 0;
+    }
+    ul
+    {
+        padding: 0 33px;
+        margin: 20px 0 0 0;
+    }
+    ul li a
+    {
+        text-decoration: none;
+        padding: 15px;
+        font-size: 16px;
+        color: black;
+        margin-left: 20px;
+        font-family: sans-serif;
+    }
+    ul li
+    {
+        list-style: none;
+        padding: 10px;
+        background: rgb(236, 236, 236);
+        border-bottom: 1px solid #CCC;
+    }
+    .active
+    {
+        color: rgb(140,151,29);
+        margin: -12px;
+    }
+    #liststyle
+    {
+        list-style-image: url('images/inner images/list style.jpg'); 
+        list-style-position: inside;
+    }
+    #login
+    {
+        width: 100%;
+        height: 318px;
+        background: rgb(236,236,236);
+        box-sizing: border-box;
+        padding: 33px 45px 0 36px;
+    }
+    #clogin
+    {
+        width: 100%;
+        height: 270px;
+        background: rgb(255,255,255);
+        border-radius: 13px;
+    }
+    #head
+    {
+        border-radius: 13px 13px 0 0;
+        background: rgb(209,205,204);
+        color: rgb(103,103,113);
+        font-size: 18px;
+        padding: 10px 33px;
+        font-family: sans-serif;
+    }
+    p
+    {
+        color: rgb(125,106,125);
+        margin: 25px 33px;
+        background: rgb(255,255,255);
+    }
+    #inputs
+    {
+        font-family: sans-serif;
+        font-size: 13px;
+    }
+    #loginbutton
+    {
+        background: -moz-linear-gradient(top,rgb(209,212,165),rgb(169,181,79));
+        background: -webkit-linear-gradient(top,rgb(209,212,165),rgb(169,181,79));
+        background: -ms-linear-gradient(top,rgb(209,212,165),rgb(169,181,79));
+        background: -o-linear-gradient(top,rgb(209,212,165),rgb(169,181,79));
+        padding: 3px 20px;
+        border-radius: 7px;
+        border: 1px solid rgb(153,153,143);  
+    }
+    .textbox
+    {
+        width: 83%;
+        height: 10%;
+    }
+    #updates
+    {
+        box-sizing: border-box;
+        padding: 5px 45px 0 36px;
+        width: 100%;
+        height: 318px;
+        background: rgb(236,236,236);
+    }
+    #updatesinner
+    {
+        background: rgb(255,255,255);
+        border-radius: 13px;
+    }
+    #table
+    {
+        width: 100%;
+        height: 210px;
+        border-collapse: collapse;
+    }
+    .tdpad
+    {
+        padding: 20px 5px 24px 5px;
+        color: rgb(73,44,75);
+        font-family: sans-serif;
+        font-size: 13px;
+    }
+    .date
+    {
+        color: rgb(123,152,36);
+    }
+    .star
+    {
+        margin-top: -32px;
+        margin-left: 16px;
+    }
+    .viewall
+    {
+        text-decoration: none;
+        color: rgb(120,122,25);
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: 13px;
+    }
+    #XHTML_CSS_logo
+    {
+        width: 100%;
+        height: 50px;
+        background: rgb(236,236,236);
+        box-sizing: border-box;
+        padding: 10px 60px;
+        border-radius: 0 0 0 15px;
+    }
+    .header
+    {
+        width: 100%;
+        height: 50px;
+        background: rgb(236, 236, 236);
+        box-sizing: border-box;
+        padding: 16px 0 0 50px;
+        font-size: 25px;
+        font-family: sans-serif;
+
+    }
+    #designblog
+    {
+        width: 100%;
+        height: 195px;
+        background: rgb(236,236,236);;
+        box-sizing: border-box;
+        padding: 25px 0 10px 53px;
+    }
+    #fruitjuice
+    {
+        width: 100%;
+        height: 195px;
+        background: rgb(236,236,236);
+        box-sizing: border-box;
+        padding: 25px 0 10px 53px;
+    }
+    .innerimages
+    {
+        width: 35%;
+        height: 80%;
+        background: rgb(161,168,62);
+        box-sizing: border-box;
+        float: left;
+        padding: 6px;
+    }
+    .contents
+    {
+        float: left;
+    }
+    .contenthead
+    {
+        margin: 0 0 15px 30px;
+        font-size: 18px;
+        font-family: sans-serif;
+        color: rgb(120,122,25);
+        background: rgb(236,236,236);
+
+    }
+    .contentinner
+    {
+        margin: 0 0 22px 30px;
+        background: rgb(236,236,236);
+        font-family: sans-serif;
+        font-size: 13px;
+    }
+    .readmore
+    {
+        text-decoration: none;
+        color: rgb(161,168,62);
+        margin: 0 0 0 30px;
+        font-family: sans-serif;
+        font-size: 13px;
+    }
+    hr
+    {
+        border: 0;
+        height: 1px;
+        background-image: -moz-linear-gradient(left,#f0f0f0,#8c8b8b,#f0f0f0);
+        background-image: -webkit-linear-gradient(left,#f0f0f0,#8c8b8b,#f0f0f0);
+        background-image: -ms-linear-gradient(left,#f0f0f0,#8c8b8b,#f0f0f0);
+        background-image: -o-linear-gradient(left,#f0f0f0,#8c8b8b,#f0f0f0);
+    }
+    .hr{
+        padding: 0 12px 0 12px;
+    }
+    #why
+    {
+        width: 100%;
+        height: 260px;
+    }
+    #whyus
+    {
+        width: 49%;
+        float: left;
+        height: 260px;
+        box-sizing: border-box;
+        background: rgb(236,236,236);
+        padding-left: 53px;
+    }
+    #standards
+    {
+        width: 50%;
+        float: left;
+        height: 260px;
+        box-sizing: border-box;
+        background: rgb(236,236,236);
+        padding-left: 53px;
+    }
+    #whyushead
+    {
+        width: 100%;
+        height: 70px;
+        margin: 0;
+    }
+    #whyuscontent
+    {
+        font-family: sans-serif;
+        font-size: 13px;
+    }
+
+    #stdhead
+    {
+        width: 100%;
+        height: 70px;
+        margin: 0;
+    }
+    #stdcontent
+    {
+        font-family: sans-serif;
+        font-size: 13px;
+    }
+    .whyul
+    {
+        width: 100%;
+        height: 200px;
+    }
+    .wul
+    {
+        height: 100%;
+        font-family: sans-serif;
+        font-size: 13px;
+    }
+    .wli
+    {
+        list-style-image: url('images/inner images/list style why.jpg');
+        list-style-position: outside;
+        padding: 5px;
+        border: 0;
+        color: rgb(125,106,125);
+    }
+    #vlineouter
+    {
+        height: 100%;
+        width: 1px;
+        margin: 0;
+        position: relative;
+        overflow: hidden;
+        float: left;
+    }
+    #vlineinner
+    {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-image: -moz-linear-gradient(top,#f0f0f0,#8c8b8b,#f0f0f0);
+        background-image: -webkit-linear-gradient(top,#f0f0f0,#8c8b8b,#f0f0f0);
+        background-image: -ms-linear-gradient(top,#f0f0f0,#8c8b8b,#f0f0f0);
+        background-image: -o-linear-gradient(top,#f0f0f0,#8c8b8b,#f0f0f0);
+    }
+    #Webprojects
+    {
+        width: 100%;
+        height: 245px;
+        background: rgb(236,236,236);
+    }
+    #examples
+    {
+        width: 100%;
+        height: 160px;;
+        box-sizing: border-box;
+    }
+    #e1
+    {
+        width: 22%;
+        height: 140px;
+        float: left;
+        box-sizing: border-box;
+        padding: 6px;
+        background: rgb(207,205,208);
+        margin: 10px 0px 0 53px;
+    }
+    #e2
+    {
+        width: 22%;
+        height: 140px;
+        float: left;
+        box-sizing: border-box;
+        padding: 6px;
+        background: rgb(207,205,208);
+        margin: 10px 40px 0 40px;
+    }
+    #e3
+    {
+        width: 22%;
+        height: 140px;
+        float: left;
+        box-sizing: border-box;
+        padding: 6px;
+        background: rgb(207,205,208);
+        margin: 10px 0 0 0;
+    }
+    #footer
+    {
+        width: 1400px;
+        height: 30px;
+        background: rgb(37,37,37);
+        color: rgb(185,195,196);
+        text-align: center;
+        padding-top: 7px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        font-size: 13px;
+        margin-top: 18px;
+    }
+</style>
+</head>
+<body>
+    <div id="main">
+        <div id="image">    <input type="button" value="Detail" id="detail"/>
+        </div>
+        <div id="d2">
+            <div id="d2inner1">
+                <div id="menus">
+                    <ul>
+                        <li id="liststyle">
+                            <a href="#" class="active">Home</a>
+                        </li>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Flash Files</a></li>
+                        <li><a href="#">Website Templates</a></li>
+                        <li><a href="#">Our Company</a></li>
+                        <li><a href="#">Contact Information</a></li>
+                    </ul>
+                </div>
+                <div id="login">
+                    <div id="clogin">
+                            <div id="head">
+                                Client Login
+                            </div>
+                            <div id="inputs">
+                                <p>
+                                    User Name:<br>
+                                    <input class="textbox" type="text"/>
+                                </p>
+                                <p>
+                                    Password:<br>
+                                    <input class="textbox" type="text"/>
+                                </p>
+                                <p><input id="loginbutton" type="button" value="login"/></p>
+                            </div>
+                    </div>
+                </div>
+                <div id="updates">
+                    <div id="updatesinner">
+                        <div id="head">
+                            Latest Updates
+                        </div>
+                        <div id="updatestable">
+                            <table border="0" id="table">
+                               <tr style="border-bottom:1px solid rgb(209,205,204)">
+                                   <td><img class="star" src="images/inner images/star1.jpg"></td>
+                                   <td class="tdpad">  
+                                       Maecenas adipiscing elem<br>sum ipsum.<br>
+                                       <a class="date">25 September 2048</a>
+                                    </td>
+                               </tr>
+                               <tr style="border-bottom:1px solid rgb(209,205,204)">
+                                    <td><img class="star" src="images/inner images/star1.jpg"></td>
+                                    <td class="tdpad">
+                                        Aser ecenas adipiscing de<br> lorem ipsum.<br>
+                                        <a class="date">18 September 2048</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="padding: 15px; color: rgb(120,122,25);">
+                                        <a href="#" style="margin: 0 10px;" class="viewall">View All</a>
+                                    </td>       
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div id="XHTML_CSS_logo">
+                    <img src="images/inner images/XHTML & CSS.jpg"/>
+                </div>
+            </div>
+            <div id="d2inner2">
+                <div class="header" style="border-radius: 0 15px 0 0;">Web Design Company</div> 
+                <div id="designblog">
+                    <div class="innerimages">
+                        <img src="images/inner images/design blog.jpg" width="100%" height="100%"/>
+                    </div>
+                    <div class="contents">
+                        <p class="contenthead">Duis vitae velit sed dui malesuada</p>
+                        <p class="contentinner">Sliquet ligula. Maecenas adipiscing um ipsum. Pelsti<br>
+                            lentesque vitae magna. Suspendisse a nibh tristique jus us<br>
+                            volutpat. Suspos endisse vitae neque eget ante.
+                        </p>
+                        <a href="#" class="readmore">Read More</a>
+                    </div>
+                </div>
+                <div id="fruitjuice">
+                    <div class="innerimages">
+                        <img src="images/inner images/fruit juice.jpg" width="100%" height="100%"/>
+                    </div>
+                    <div class="contents">
+                        <p class="contenthead">Savitae velit sed dui malesu donec</p>
+                        <p class="contentinner">Suspos endisse vitae neque eget ante.Suspendisse<br>
+                            a nibh tristique jus us volutpat.<br>
+                            Sliquet ligula. Maecenas adipiscing um ipsum.</p>
+                        <a href="#" class="readmore">Read More</a>
+                    </div>
+                </div>
+                <div class="hr"><hr></div>
+                <div id="why">
+                    <div id="whyus">
+                        <div id="whyushead">
+                            <div style="width: 40px; height: 50px; float: left;">
+                                <img src="images/inner images/Why Us.jpg" width="100%" height="100%"/>
+                            </div>
+                            <div style="box-sizing: border-box; padding: 16px 0 0 65px; font-size: 26px; font-family: sans-serif;">Why Us?</div>
+                        </div>
+                        <div id="whyuscontent">
+                            <p style="margin: 0; background: rgb(236, 236, 236);">
+                                    Suspos endisse vitae neque eget ante.<br>
+                                    Maecenas adipiscing um ipsum Maecenas<br>
+                                    a nibh tristique jus us volutpat.
+                            </p>
+                        </div>
+                        <div class="whyusul">
+                            <ul class="wul">
+                                <li class="wli">Smalesuada dignissim</li>
+                                <li class="wli">Donec mollis aliquet ligula</li>
+                                <li class="wli">Maecenas adipiscin</li>
+                            </ul>
+                        </div>
+                    </div>
+                 
+                    <div id="vline">
+                        <div id="vlineouter">
+                            <div id="vlineinner"></div>
+                        </div>
+                    </div>
+                    <div id="standards">
+                        <div id="stdhead">
+                            <div style="width: 48px; height: 50px; float: left;">
+                                <img src="images/inner images/Standards.jpg" width="100%" height="100%"/>
+                            </div>
+                            <div style="box-sizing: border-box; padding: 16px 0 0 65px; font-size: 26px; font-family: sans-serif;">Standards</div>
+                        </div>
+                        <div id="stdcontent">
+                            <p style="margin: 0; background: rgb(236, 236, 236);">
+                                    Lorem ipsum dollar sit amet, Suspos  adipiscin<br>
+                                    Maecenas adipiscing um ipsum mollis aliquet<br>
+                                    a nibh tristique jus us volutpat aliquet ligula.
+                            </p>
+                        </div>
+                        <div class="whyul">
+                            <ul class="wul">
+                                <li class="wli">lentesque vitae magna</li>
+                                <li class="wli">endisse vitae neque</li>
+                                <li class="wli">Maecenas adipiscing</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="hr"><hr></div>
+                <div id="Webprojects">
+                    <div class="header">Web Projects</div>
+                    <div id="examples">
+                        <div id="e1">
+                            <img src="images/inner images/web projects1.jpg" width="100%" height="100%"/>
+                        </div>
+                        <div id="e2">
+                            <img src="images/inner images/web projects2.jpg" width="100%" height="100%"/>
+                        </div>
+                        <div id="e3">
+                            <img src="images/inner images/web projects3.jpg" width="100%" height="100%"/>
+                        </div>
+                    </div>
+                    <div style="width: 100%; height: 50px; padding: 15px 0 0 53px;">
+                        <a href="#" class="viewall">
+                            View All Projects
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hr"><hr></div>
+            
+            </div>
+        </div>
+        <div id="footer">
+            Copyright &copy; 2048 Your Company Name | Designed by Free CSS Templates | Validate XHTML & CSS
+        </div>
+    </div>
+</body>
+</html>
